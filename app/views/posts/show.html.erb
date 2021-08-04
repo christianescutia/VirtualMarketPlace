@@ -16,33 +16,13 @@
 </p>
 
 <p>
-  <strong>Price:</strong>
-  <%= @post.price %>
-</p>
-
-<p>
-  <strong>Quantity:</strong>
-  <%= @post.quantity %>
-</p>
-
-<p>
-  <strong>Item:</strong>
-  <%= @post.item %>
+  <strong>Reviews:</strong>
+  <%= @post.review_id %>
 </p>
 
 <p>
   <strong>Date posted:</strong>
   <%= @post.date_posted %>
-</p>
-
-<p>
-  <strong>Availability:</strong>
-  <%= @post.availability %>
-</p>
-
-<p>
-  <strong>Views:</strong>
-  <%= @post.views %>
 </p>
 
 <%= link_to 'Edit', edit_post_path(@post) %> |
