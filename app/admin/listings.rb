@@ -5,7 +5,7 @@ ActiveAdmin.register Listing do
   #
   # Uncomment all parameters which should be permitted for assignment
   #
-  # permit_params :listing_id, :item, :price, :quantity, :availability
+  permit_params :listing_id, :item, :price, :quantity, :availability
   #
   # or
   #

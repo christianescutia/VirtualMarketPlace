@@ -5,7 +5,7 @@ ActiveAdmin.register Sale do
   #
   # Uncomment all parameters which should be permitted for assignment
   #
-  # permit_params :sale_id, :user_id, :listing_id, :price_sold, :quantity, :date_sold
+  permit_params :sale_id, :user_id, :listing_id, :price_sold, :quantity, :date_sold
   #
   # or
   #
