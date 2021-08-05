@@ -6,5 +6,5 @@ class User < ApplicationRecord
     validates :last_name, presence: true
     validates :address, presence: true
     validates :email, presence: true, format: { with: /\A[^@\s]+@[^@\s]+\z/, message: "must be a valid email address"}
-    validates :phone_num, presence: true
+    validates :phone, presence: true
 end
