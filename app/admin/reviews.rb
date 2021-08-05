@@ -5,7 +5,7 @@ ActiveAdmin.register Review do
   #
   # Uncomment all parameters which should be permitted for assignment
   #
-  # permit_params :review_id, :user_id, :listing_id, :rating, :review_content
+  permit_params :review_id, :user_id, :listing_id, :rating, :review_content
   #
   # or
   #

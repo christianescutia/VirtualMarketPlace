@@ -5,7 +5,7 @@ ActiveAdmin.register Post do
   #
   # Uncomment all parameters which should be permitted for assignment
   #
-  # permit_params :posting_id, :user_id, :listing_id, :review_id, :date_posted
+  permit_params :posting_id, :user_id, :listing_id, :review_id, :date_posted
   #
   # or
   #
