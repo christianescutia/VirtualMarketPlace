@@ -1,24 +1,36 @@
-# README
+# READ ME 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Please follow the instructions below to run our app on your local machine
 
-Things you may want to cover:
+Installing Ruby 
+1. check to see if it is already on your machine by opening the command line and typing 
+ruby --version 
 
-* Ruby version
+if ruby is intalled you should see the version number displayed below 
+	* note that our app runs on ruby 3.0.0 * 
 
-* System dependencies
+2. make sure postgres is also installed on your machine 
 
-* Configuration
+3. Nodejs and yarn should be installed as well - https://nodejs.org/en/download/ https://classic.yarnpkg.com/en/docs/install 
 
-* Database creation
+4. Once everything is installed and ready to go run '$ gem install rails'
 
-* Database initialization
+* you may need to run bundle install after rails has been installed but typically it would prompt you to do so*
 
-* How to run the test suite
+5. Within the code go to config-> database.yml 
 
-* Services (job queues, cache servers, search engines, etc.)
+under default and development change the fields to:
+	  database: VirtualMarketPlace
+	  username: "your username" 
+	  password: "your password"
+	  host: localhost
+	  port: 5432
 
-* Deployment instructions
+6. code should be ready to go 
+	6a. Open terminal and cd to the folder where our code is installed. cd into 'VirtualMarketPlace'
+	6b. run the command 'rails db:migrate'
+	6c. run the command 'rails db:seed'
+	6d. run 'rails server' or 'rails s'
 
-* ...
+6. open a webbrowser and type: localhost:3000 -> this will not work if the server is not running
+
