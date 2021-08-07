@@ -55,7 +55,6 @@ ActiveAdmin.register_page "Dashboard" do
                 end 
             end
             div do
-              b li("Item: " + exp_name + ", Cost: " + exp_item.truncate(2).to_s('F'))
             end 
         end 
 

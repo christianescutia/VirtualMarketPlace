@@ -1,6 +1,6 @@
-# READ ME 
+READ ME 
 
-Please follow the instructions below to run our app on your local machine
+pleasee follow the instructions below to run our app on your local machine
 
 Installing Ruby 
 1. check to see if it is already on your machine by opening the command line and typing 
